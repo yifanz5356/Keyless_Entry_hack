@@ -1,0 +1,5 @@
+./client/proxmark3.exe COM5
+lf config L t 6
+lf snoop
+data samples 16000
+data save C:/users/Kevin/Desktop/ProxSpace-master/data.txt
